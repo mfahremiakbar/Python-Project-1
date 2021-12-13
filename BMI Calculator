@@ -1,0 +1,19 @@
+Nama = "Farug Hutamata"
+Tinggi_badan = 172
+Berat_badan = 97
+
+bmi = Berat_badan / (Tinggi_badan/100)**2
+print(Nama)
+
+if bmi <= 18.4 :
+  print("ceking banget lu")
+elif bmi <= 24.9:
+  print("iyedeh yang udah body goals")
+elif bmi <= 29.9:
+  print("Anda Gembrot")
+elif bmi <= 34.9:
+  print("YEAH ANDA OBESTIAS kelas 1")
+elif bmi <= 39.9:
+  print(" mantap bro obesitas kelas 2")
+else :
+  print("SELAMAT ANDA SANGAT OBESITAS")
